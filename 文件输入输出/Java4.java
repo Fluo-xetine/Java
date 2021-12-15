@@ -2,7 +2,7 @@ package javaSE_12;
 
 import java.io.*;
 
-public class Java4 {
+public class TestMain {
     public static void main(String[] args) throws IOException {
         Student[] stuArray={
                 new Student("张三","1001",18),
@@ -15,7 +15,7 @@ public class Java4 {
         if (!file.exists()){
             file.createNewFile();
         }
-       stu_out.fileOutStream("E:\\workspace\\javaSE_workspace\\student.txt",stuArray);
+        stu_out.fileOutStream("E:\\workspace\\javaSE_workspace\\student.txt",stuArray);
 
 
         fileInputStream stu_input = new fileInputStream();
